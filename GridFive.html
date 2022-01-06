@@ -41,7 +41,7 @@
                         <a class="nav-link" href="GridFour.html">Grid 4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="GridFive.html">Grid 5</a>
+                        <a class="nav-link active" aria-current="page"  href="GridFive.html">Grid 5</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="GridSix.html">Grid 6</a>
@@ -61,15 +61,33 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Grid Five</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container mt-1 h-100 minHeight">
+            <div class="row row-cols-1 row-cols-md-3 h-100 gy-3">
+                <div class="col col-md-3">
+                    <div class="bg-secondary text-light h-100 ">
+                        COL ONE
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="bg-dark text-light h-100">
+                        COL TWO
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="bg-secondary text-light h-100">
+                        COL THREE
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+
+
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
-            <span class="text-muted"><p>© 2022 Tony H.</p></span>
+            <span class="text-muted">
+                <p>© 2022 Tony H.</p>
+            </span>
         </div>
     </footer>
     <!-- Bootstrap JS -->

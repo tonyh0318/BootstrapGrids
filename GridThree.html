@@ -35,7 +35,7 @@
                         <a class="nav-link" href="GridTwo.html">Grid 2</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="GridThree.html">Grid 3</a>
+                        <a class="nav-link active"  aria-current="page" href="GridThree.html">Grid 3</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="GridFour.html">Grid 4</a>
@@ -61,15 +61,36 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Grid Three</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container mt-1 h-100 minHeight">
+            <div class="row h-100">
+                <!-- LEFT COLUMN -->
+                <div class="col col-md-7">
+                    <div class="bg-secondary text-light h-100">
+                        col left
+                    </div>
+                </div>
+
+                <!-- Right COLUMN -->
+                <div class="col col-md-5 h-100 d-flex flex-column">
+                    <div class="bg-secondary text-light h-50 mb-2">
+                        col right
+                    </div>
+                    <div class="bg-dark h-50 text-light">
+                        col right bottom
+                    </div>
+                    <div class="bg-dark mt-2 p-2">
+                        <button type="button" class="btn btn-light">Read More</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
-            <span class="text-muted"><p>© 2022 Tony H.</p></span>
+            <span class="text-muted">
+                <p>© 2022 Tony H.</p>
+            </span>
         </div>
     </footer>
     <!-- Bootstrap JS -->

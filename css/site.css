@@ -10,16 +10,16 @@ main>.container {
     width: 100%;
 }
 
-.bgImage{
+.bgImage {
     width: 100%;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-image: url(/img/purpleBg.png);
 }
 
-.titleText{
+.titleText {
 
     font-family: 'Londrina Shadow', cursive;
     font-size: 5em;
@@ -27,6 +27,12 @@ main>.container {
     color: rgb(191, 194, 39);
 }
 
+.minHeight {
+    min-height: 80vh;
+}
 
+.myWidth{
 
+    width: 50%;
 
+}
